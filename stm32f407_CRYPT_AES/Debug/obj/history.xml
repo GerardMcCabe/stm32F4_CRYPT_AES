@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace -I..\..\..\workspace\stm32f407_CRYPT_AES\cmsis -I..\..\..\workspace\stm32f407_CRYPT_AES\cmsis_boot -I..\..\..\workspace\stm32f407_CRYPT_AES -I..\..\..\workspace\stm32f407_CRYPT_AES\cmsis_lib\include -I..\..\..\workspace\stm32f407_CRYPT_AES\cmsis_lib">
+      <target file="syscalls.o" lastModified="14f41012691">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14f3ab9badd"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14f4101262d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14f3ab8ef7d"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14f4101265f">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="14f3ab8ef87"/>
+      </target>
+      <target file="printf.o" lastModified="14f41012579">
+         <source file="..\..\..\stdio\printf.c" lastModified="14f3abade02"/>
+      </target>
+      <target file="stm32f4xx_cryp_tdes.o" lastModified="14f410126c3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_tdes.c" lastModified="14f3ab91876"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14f4101242f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14f3ab8ef7d"/>
+      </target>
+      <target file="stm32f4xx_cryp_des.o" lastModified="14f410125ab">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_des.c" lastModified="14f3ab91876"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14f41012407">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14f3ab90394"/>
+      </target>
+      <target file="main.o" lastModified="14f410124cf">
+         <source file="..\..\..\main.c" lastModified="14f41011ed5"/>
+      </target>
+      <target file="stm32f4xx_cryp.o" lastModified="14f410125f1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp.c" lastModified="14f3ab91876"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="14f41012371">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="14f3aba28a6"/>
+      </target>
+      <target file="stm32f4xx_cryp_aes.o" lastModified="14f410123c1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_aes.c" lastModified="14f3ab91876"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14f41012533">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14f3ab8ef87"/>
+      </target>
+   </processor>
+</history>

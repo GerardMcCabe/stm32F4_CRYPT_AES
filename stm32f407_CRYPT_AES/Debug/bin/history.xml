@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.9.3 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=stm32f407_CRYPT_AES.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\stm32f407_CRYPT_AES -TC:\CooCox\CoIDE\configuration\ProgramData\stm32f407_CRYPT_AES/arm-gcc-link.ld -g">
+      <target file="stm32f407_CRYPT_AES.elf" lastModified="14f41012899">
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="14f41012371"/>
+         <source file="..\obj\stm32f4xx_cryp_aes.o" lastModified="14f410123c1"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="14f41012407"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="14f4101242f"/>
+         <source file="..\obj\main.o" lastModified="14f410124cf"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="14f41012533"/>
+         <source file="..\obj\printf.o" lastModified="14f41012579"/>
+         <source file="..\obj\stm32f4xx_cryp_des.o" lastModified="14f410125ab"/>
+         <source file="..\obj\stm32f4xx_cryp.o" lastModified="14f410125f1"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="14f4101262d"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="14f4101265f"/>
+         <source file="..\obj\syscalls.o" lastModified="14f41012691"/>
+         <source file="..\obj\stm32f4xx_cryp_tdes.o" lastModified="14f410126c3"/>
+      </target>
+   </processor>
+</history>
